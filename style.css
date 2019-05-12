@@ -1,0 +1,645 @@
+
+.flex {
+    display:flex;
+}
+#top_menu{
+    background:black;
+    color:white;
+    padding:5px 10px;
+}
+#top_menu ul li{
+list-style-type: none;
+margin-right: 20px;
+}
+
+nav ul li{
+    list-style-type:none;
+    margin-right: 10px;
+}
+
+.main_content{
+   
+  }
+section{
+    width:67%;
+    margin:auto;
+}
+header{
+    position:sticky;
+    top:0;
+    background:white;
+    z-index: 10;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:0 10px;
+    height:50px;
+    color:gray;
+    align-items: center;
+    background: white;
+}
+
+nav ul:last-child {
+    border-left: 1px solid lightgray;
+    padding-left:20px;
+ 
+}
+
+#message{
+    background: #FFDD33;
+    padding: 5px 10px;
+}
+.highlight{
+    display:grid;
+    grid-template-columns: 60% 40%;
+    width:99%;
+    margin:auto;
+    margin: 3px auto;
+    color:red;
+   }
+.left_highlight{
+    position: relative;
+    height:450px;
+    background: linear-gradient(to top, black,transparent), linear-gradient(160deg,red, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/TNW-Livestream-2019-hed-796x431.jpg) no-repeat center; 
+    background-size: cover; 
+    opacity:0.9; 
+       }
+.left_end {
+    position:absolute;
+    left:20px;
+    top:20px;
+    width:35vw;
+}
+
+.figcap{
+    position: absolute;
+    bottom:20px;
+    left:20px;
+    color:white;
+}
+.right_end{
+    position:absolute;
+    right:20px;
+    top:20px;
+    color:white;
+}
+
+.bottom_end{
+    position: absolute;
+    bottom:40px;
+    left:10px;
+    color:white;
+    font-size:60px;
+    line-height: 50px;
+    font-weight:bold;
+}
+.right_bottom_end{
+    position: absolute;
+    bottom:20px;
+    left:10px;
+    color:white;  
+}
+
+.right_bottom_end h5{
+    font-size: 30px;
+    font-weight:bold;
+    margin-bottom:10px;
+
+}
+.right_highlight{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    height:450px;
+    justify-content: space-between;
+    margin-left: 5px;
+
+}
+.right_top{
+    position: relative;
+    background: linear-gradient(to top, black,transparent), linear-gradient(160deg,white, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/TNW-Livestream-2019-hed-796x431.jpg) no-repeat center;
+    height:220px;
+    margin-bottom:5px;
+    box-sizing: border-box;
+    
+}
+
+.right_bottom{
+    position: relative;
+    background: linear-gradient(to top, black,transparent), linear-gradient(160deg,white, transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/TNW-Livestream-2019-hed-796x431.jpg) no-repeat center; 
+    height:220px; 
+    box-sizing: border-box;
+}
+
+
+.latest{
+    width:100%;
+    margin:100px auto;
+ 
+}
+.latest_img{
+ max-width:300px;
+ width:100%;
+}
+
+.latest h3{
+    color:#ff4422;
+    font-weight: bold;
+}
+.latest_items{
+   display: grid;
+   grid-template-columns: 23% 23% 23% 23% ;
+   justify-content: space-between;
+  
+}
+
+
+.latest_item {
+
+    margin:20px 0;
+}
+
+.funding{
+position: relative;
+width:100%;
+margin: 20px auto 0 auto;
+padding: 10px 0;
+box-sizing: border-box;
+}
+
+.funding h3{
+ color:#ff4422;
+ font-weight: bold;
+ font-size:30px;
+
+}
+
+.updates{
+  
+    color:#ff4422;
+    font-size:20px;  
+}
+
+.funding_heading{
+    display:flex;
+    justify-content: space-between;
+}
+
+.updates span{
+    border-right:1px solid #ff4422;
+    padding:0 10px;
+}
+
+.updates span:last-child{
+    border:none;
+}
+
+.funding_items{
+    margin-top:50px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.funding_items ul li {
+    list-style-type: none;
+    
+}
+
+.fund_item{
+    position: relative;
+    width:270px;
+    box-sizing: border-box;
+}
+
+.fund_partner{
+ color:white;
+ font-weight:bold;
+ font-size:20px;
+ background:#ff4422;
+ padding:10px 0 10px 80px;
+}
+
+.fund_amount{
+ background:#FFEBE7;
+ padding: 10px 0 10px 90px;
+}
+.fund_amount p{
+    font-size:12px;
+}
+.fund_capital{
+ background:#FFFAF8;
+ padding:15px ;
+ box-sizing: border-box;
+}
+
+.fund_capital p,.fund_footer p{
+    line-height:20px;
+}
+
+.fund_img{
+position: absolute;
+left:15px;
+top:10px;
+}
+.fund_footer{
+ background:#FFFAF8;
+ border-top: 0.1px solid #ff4422;
+ padding:15px ;
+ box-sizing: border-box;
+}
+
+.app{
+    width:100%;
+    margin:50px auto;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    }
+.app_items{
+    width: 370px;
+    margin-bottom:50px;
+    
+
+   
+}
+.app_items ul li{
+    border-bottom:1px solid #ff4422;
+    padding: 10px 0;
+    list-style-type: none;
+    
+}
+
+.app_items h3{
+    color: #ff4422;
+    font-weight:bolder;
+    font-size:30px;
+}
+
+.img_back{
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/AI-avatars-796x418.jpg);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    width:370px;
+    height:250px;
+    margin:20px 0 0 0;
+    color:white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.img_back:hover{
+    cursor:pointer;
+}
+
+.lower_text{
+position: absolute;
+ bottom:20px;
+}
+
+.lower_text h4{
+    font-size:25px;
+    line-height: 25px;
+    padding: 10px 0;
+}
+
+.cheap{
+    position: relative;
+    background:#FFF4F2;
+    
+
+}
+
+.cheap p{
+    width:250px;
+    padding: 5px 0 5px 10px;
+    color:#ff4422;
+    font-weight:bold;
+}
+
+.cheap h4{
+ padding: 10px 0 5px 5px;
+ color:#ff4422;
+}
+
+.cheap img{
+    position: absolute;
+    right:0;
+    top:5px;
+}
+
+.deals{
+    width:100%;
+    margin:auto;
+}
+
+.deals_data {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.deals_item{
+    margin-bottom:40px;
+}
+
+.deals_item h4{
+    margin-bottom: 12px;
+}
+.deals_heading{
+    display:flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    color:#ff4422;
+}
+.deals_heading h3{
+    font-weight:bold;
+    font-size:30px;
+}
+.img_deals{
+   background:url(assets/images/vpn.jpg); 
+   background-position:center;
+   background-size:cover;
+   background-repeat: no-repeat;
+   width:280px;
+   height:200px;
+   margin-bottom: 12px;
+}
+
+
+.socials{
+    background:#131313;
+    color:white;
+    height:150px;
+    margin-top:70px;
+}
+.socials ul{
+   display:flex;
+   align-items: center;
+    justify-content: center;
+}
+.socials ul li{
+    list-style-type: none;
+    margin-right:20px;
+    line-height: 150px;
+}
+footer{
+    height:150px;
+    background:#000000;
+    color:white;
+    text-align:center;
+    line-height: 150px;
+    box-sizing: border-box;
+}
+
+/* hover behaviour*/
+
+.img_deals:hover,nav ul li:hover, #top_menu ul li:hover{
+    cursor:pointer;
+}
+
+.latest h3:hover{
+    cursor: pointer;
+    color:black;
+}
+
+.deals_heading h3:hover, .deals_heading p:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.deals_item h4:hover{
+    cursor: pointer;
+    color:#ff4422;
+}
+
+#small_nav{
+      display:none;
+}
+
+#small_nav img{
+    width:100px;
+    height:25px;
+    background:red;
+    padding:10px;
+}
+
+.right_small_nav{
+ display: flex;
+ align-items: center;
+}
+
+.right_small_nav .fas{
+    padding:10px;
+    width:30px;
+    border-left: 1px solid lightgray;
+}
+
+.cheap p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 767px) {
+   #top_menu, nav, .left_end, .right_end{
+      display: none;
+    }
+   .highlight{
+       display:grid;
+       grid-template-columns: 100%;   
+   }
+   .left_highlight{
+       height: 220px;
+       margin-bottom:10px;
+       background: linear-gradient(to top, black,transparent), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/TNW-Livestream-2019-hed-796x431.jpg) no-repeat center; 
+   }
+
+   .bottom_end{
+       font-size: 25px;
+   }
+
+   .right_bottom_end h5{
+       font-size:22px;
+   }
+    #small_nav{
+        display:flex;
+        justify-content: space-between;
+   
+    }
+
+
+    section{
+        width:96%;
+        margin-top: -40px;
+        margin-bottom: -80px;
+    }
+    .latest_items{
+        display: flex;
+        flex-direction: column;
+    }
+    .latest_items img{
+        width:90px;
+        height:80px;
+        float:left;
+        margin-right:20px;
+    }
+  
+
+    .latest_items li{
+        width:100%;
+    }
+    .funding {
+        margin-top:-100px;
+    }
+    .funding_items{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .fund_item {
+        width:100%;
+    }
+
+    .updates{
+        display:flex;
+        flex-direction: column-reverse;
+        margin-bottom:-20px;
+              
+    }
+
+    .updates span{
+        border:none;
+        margin-top:10px;
+    }
+
+    .funding h3, .updates {
+        position: static;
+    }
+
+    .app_items{
+        width:100%;
+    }
+    .img_back{
+        width:100%;
+        height:500px;
+    }
+   .cheap p{
+       width: 100%;
+   }
+
+   .deals_data {
+    display:flex;
+    flex-direction: column;
+   }
+
+   .img_deals{
+       width: 90px;
+       height:80px;
+       float:left;
+       margin:-20px 10px -20px 5px;
+
+   }
+
+   footer p{
+       width:260px;
+       line-height: 30px;
+       
+   }
+
+   footer{
+    text-align:center;
+   }
+
+  
+  }
+
+  @media only screen and (max-width: 1690px) {
+     section{
+         width:75%;
+         margin:auto;
+     }
+  }
+
+  @media only screen and (max-width: 1625px) {
+    section{
+        width:75%;
+        margin:auto;
+      }
+    }
+@media only screen and (max-width: 1544px) {
+     section{
+     width:78%;
+     margin:auto;
+     }
+  }
+
+ @media only screen and (max-width: 1505px) {
+     section{
+         width:80%;
+         margin:auto;
+       }
+     }
+
+
+  @media only screen and (max-width: 1418px) {
+ section{
+    width:90%;
+    margin:auto;
+   }
+ }  
+
+ @media only screen and (max-width: 1455px) {
+     section{
+        width:87%;
+        margin:auto;
+       }
+    }    
+   
+ @media only screen and (max-width: 1305px) {
+        section{
+             width:90%;
+            margin:auto;
+         } 
+        }
+
+@media only screen and (max-width: 1265px) {
+            section{
+                width:94%;
+                margin:auto;
+         
+        }
+   }  
+           
+@media only screen and (max-width: 1210px) {
+                section{
+                    width:97%;
+                    margin:auto;
+   }  
+}
+                @media only screen and (max-width: 1172px) {
+                    section{
+                        width:98%;
+                        margin:auto;
+                    }  
+
+               
+                }
+                    @media only screen and (max-width: 1160px) {
+                        section{
+                            width:99%;
+                            margin:auto;
+                        }     
+                    }                                                      
+  @media only screen and (max-width: 1032px) {
+    section{
+        width:100%;
+        margin:auto;
+       }
+
+    .funding_heading{
+        display:flex;
+        flex-direction: column;
+    }
+ }
