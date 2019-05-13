@@ -387,12 +387,12 @@ position: absolute;
     line-height: 150px;
 }
 footer{
-    height:150px;
+    height:auto;
     background:#000000;
     color:white;
     text-align:center;
-    line-height: 150px;
     box-sizing: border-box;
+    padding:40px 10px;
 }
 
 /* hover behaviour*/
